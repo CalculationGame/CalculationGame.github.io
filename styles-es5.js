@@ -353,7 +353,7 @@
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! D:\Trainning\Technical\Angular\Calculation-Game\src\styles.css */
+    /*! D:\Project\Angular\calculation-game\src\styles.css */
     "./src/styles.css");
     /***/
   }

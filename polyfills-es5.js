@@ -18875,7 +18875,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! D:\Trainning\Technical\Angular\Calculation-Game\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
+    /*! D:\Project\Angular\calculation-game\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
     "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js");
 
     __webpack_require__(
@@ -18883,7 +18883,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     "./node_modules/zone.js/dist/zone-legacy.js");
 
     module.exports = __webpack_require__(
-    /*! D:\Trainning\Technical\Angular\Calculation-Game\src\polyfills.ts */
+    /*! D:\Project\Angular\calculation-game\src\polyfills.ts */
     "./src/polyfills.ts");
     /***/
   }
