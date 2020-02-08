@@ -256,9 +256,14 @@ class AppComponent {
         }
     }
     plus() {
-        const critLevel = (this.level + 1) * 5;
+        const critLevel = (this.level + 1) * 2;
         this.a = this.randomNumber(critLevel);
         this.b = this.randomNumber(critLevel);
+        if (this.a < this.b) {
+            const temp = this.a;
+            this.a = this.b;
+            this.b = temp;
+        }
         this.abCal = this.a + this.b;
         if (this.a === 0 || this.b === 0 || this.abCal < critLevel) {
             this.plus();
@@ -274,7 +279,7 @@ class AppComponent {
             this.b = temp;
         }
         this.abCal = this.a - this.b;
-        if (this.a === 0 || this.b === 0 || this.abCal > critLevel || this.b * 4 > this.a * 2) {
+        if (this.a === 0 || this.b === 0 || this.abCal > critLevel || this.b * 3 < this.a || this.abCal * 2 < critLevel) {
             this.divi();
         }
     }
