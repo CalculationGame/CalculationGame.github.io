@@ -558,7 +558,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.a = 0;
           this.b = 0;
           this.point = 0;
-          this.gameTime = 5;
           this.countDownTime = this.gameTime;
           this.startCountdown();
           this.plus();
